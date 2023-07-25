@@ -1,0 +1,30 @@
+        div {
+        width: 400px;
+        height: 400px;
+        padding: 5px;
+        margin: 30px;
+        font-size: 22px;
+        background-image: url(../image/str-eng.jpg)
+    }
+    
+    .div1 {
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .div2 {
+        background-repeat: repeat-y;
+        background-position: right;
+        background-size: 100px;
+    }
+    
+    .div3 {
+        background-repeat: repeat-x;
+        background-position: bottom;
+        background-size: 100px;
+    }
+    
+    .div4 {
+        background-repeat: repeat-y repeat-x;
+        background-position: top bottom;
+        background-size: 100px;
